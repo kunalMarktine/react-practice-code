@@ -1,0 +1,70 @@
+.card {
+    margin: 3rem !important;
+}
+
+.card-item {
+    width: 340px;
+    padding: 10px;
+    -webkit-box-shadow: 2px 2px 9px -3px rgba(99, 99, 99, 1);
+    -moz-box-shadow: 2px 2px 9px -3px rgba(99, 99, 99, 1);
+    box-shadow: 2px 2px 9px -3px rgba(99, 99, 99, 1);
+}
+
+.card-item img {
+    object-fit: contain;
+    width: 90%;
+}
+
+.card-content h2 {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    margin-bottom: 0.35em;
+}
+
+.card-content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+}
+
+.cart-btn button {
+    margin: 2px 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #1976d2;
+}
+
+.cart-btn button:hover{
+    -webkit-box-shadow: 2px 2px 9px -3px rgba(99, 99, 99, 1);
+    -moz-box-shadow: 2px 2px 9px -3px rgba(99, 99, 99, 1);
+    box-shadow: 2px 2px 9px -3px rgba(99, 99, 99, 1);
+}

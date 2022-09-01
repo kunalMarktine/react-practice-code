@@ -1,0 +1,1 @@
+export * as action from './Actions/postActions'
